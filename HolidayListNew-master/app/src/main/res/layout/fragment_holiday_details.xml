@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.adaiboad.realtravelapp.Fragments.HolidayDetailsFragment">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <!-- Top tab -->
+        <RelativeLayout
+            android:id="@+id/title_tab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <include layout="@layout/holiday_title_tab" />
+
+        </RelativeLayout>
+
+
+        <!-- Main section -->
+
+        <RelativeLayout
+            android:id="@+id/main_secton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_below="@id/title_tab">
+
+            <include layout="@layout/holiday_main_content" />
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+</ScrollView>
+
+    <Button
+        android:id="@+id/saveHolidayButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Save" />
+</RelativeLayout>

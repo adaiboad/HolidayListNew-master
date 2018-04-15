@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1039543623052",
+    "firebase_url": "https://fir-storage-4429a.firebaseio.com",
+    "project_id": "fir-storage-4429a",
+    "storage_bucket": "fir-storage-4429a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1039543623052:android:1199808d2d98538f",
+        "android_client_info": {
+          "package_name": "com.example.adaiboad.realtravelapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1039543623052-f5g8t0c3f8jnclepu4i9vgdb1opn3nni.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.adaiboad.realtravelapp",
+            "certificate_hash": "0b6404b4c88cc40a7a6289eb6bab4a6777839dde"
+          }
+        },
+        {
+          "client_id": "1039543623052-ahc5tqtescloiveinaqqkqjh3af3gm7c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_Kjc-fLvt15s6REm5Z7z5uWxnvxiQIDg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1039543623052-ahc5tqtescloiveinaqqkqjh3af3gm7c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
